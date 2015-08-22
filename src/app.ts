@@ -1,2 +1,9 @@
 // new module
-module 
+export module ten {
+	class Startup {
+    public static main(): number {
+        console.log('Hello World');
+        return 0;
+    }
+	}
+}
